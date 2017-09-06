@@ -6,23 +6,4 @@ authors = ["Kontio Pyry <kontio@r.recruit.co.jp>"]
 [dependencies]
 
 rust-s3 = "0.6"
-toml = "0.4"
-serde_derive = "1.0"
-serde = "1.0"
-percent-encoding = "1"
-itertools = "0.6.0"
-log = "0.3"
-env_logger = "0.4"
-chrono = "0.4"
-clap = "2"
-native-tls = "0.1"
-error-chain = { version = "0.11", default-features = false }
-dotenv = { version = "0.10" }
-rayon = "0.8"
-try_map = "0.2"
-postgres = { version = "0.15", features = ["with-native-tls", "with-chrono"] }
-csv = "1.0.0-beta.4"
-runtime-fmt = "0.3.0"
-md5 = "0.3.5"
-num_cpus = "1.6.2"
-chan = "0.1.19"
+postgres = "0.15"
